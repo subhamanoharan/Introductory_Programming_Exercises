@@ -19,7 +19,7 @@ public class PrimeFactors {
         List<Integer> result=new ArrayList<Integer>();
         for(int i=2;i<(n);i++)
         {
-            if(n%i==0 && isPrime(n))
+            if(n%i==0 && isPrime(i))
                 result.add(i);
         }
         return result;
